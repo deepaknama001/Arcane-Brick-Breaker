@@ -1,28 +1,28 @@
-# Arcane Brick Breaker: Realms — v3
+# Arcane Brick Breaker — Mythic Edition v4
 
-A full offline-capable PWA brick-breaker adventure with permanent progression.
+Final presentation upgrade of **Arcane Realms**.
 
-## Included
-- 5 handcrafted visual realms across 50 stages
-- Realm-specific palettes and 5 named bosses
-- Boss attack mechanics with different projectile patterns
-- Permanent Arcane Forge upgrade system
-- Shard currency and first-clear rewards
-- 10 achievements with rewards
-- 50-node selectable level map and progression
-- Unlockable/equippable paddle and orb cosmetics
-- 11 power-ups including rare Storm and Echo runes
-- Daily Rift with date-seeded layout, one-life rules and daily reward
-- Combo scoring, special bricks, explosive chains, particles, trails, screen shake
-- Synthesized WebAudio SFX + ambient procedural music
-- Local save for progress/settings/shop/achievements
-- Installable PWA with offline service worker
+## Final visual direction
+The game has moved away from a generic neon arcade look into a restrained mythic-fantasy presentation: parchment-gold, oxidized jade, stone, ember, ivory frost, amethyst and antique celestial metal. UI panels use ornamental borders, subtle grain, atmospheric aurora, serif display typography, cinematic transitions and lower-saturation realm lighting.
+
+## Systems
+- Five visually distinct realms / 50-stage journey
+- Five realm Guardians with projectile attack patterns
+- Permanent Arcane Forge with four upgrade disciplines
+- Shard economy
+- Hall of Deeds achievements
+- Celestial Atlas level map
+- Unlockable/equippable paddles and orbs
+- Eleven power-ups including rare Storm and Echo runes
+- Daily Omen challenge
+- Combo system, boss health UI, special bricks, chain explosions
+- Procedural WebAudio SFX / ambient music
+- Persistent local save
+- Full PWA install + offline cache
 - Mobile touch, mouse and keyboard support
 
-## GitHub Pages
-Replace the old repository files with everything in this ZIP. Keep all files in the repository root. If Pages already points at `main / (root)`, it will redeploy automatically.
+## Deploy / update
+Upload every file in this ZIP to the repository root and replace the existing versions. GitHub Pages will redeploy automatically. Because the service-worker cache version is bumped to v4, existing installed copies should refresh to the new asset set after reopening.
 
-## Android install
-Open the live HTTPS GitHub Pages URL in Chrome. Use the in-game `INSTALL APP` button when Chrome exposes installation, or Chrome menu → Add to Home screen / Install app.
-
-PWA installability depends on HTTPS and browser criteria. GitHub Pages provides HTTPS.
+## Android PWA
+Open the HTTPS GitHub Pages build in Chrome. Use `INSTALL APP` when available or Chrome menu → Install app / Add to Home screen.
