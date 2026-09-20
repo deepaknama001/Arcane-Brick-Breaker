@@ -1,0 +1,19 @@
+{
+  "name": "Arcane Brick Breaker: Realms",
+  "short_name": "Arcane Realms",
+  "description": "Premium offline brick breaker adventure.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#03040b",
+  "theme_color": "#070817",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

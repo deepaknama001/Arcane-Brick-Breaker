@@ -1,24 +1,28 @@
-# Arcane Brick Breaker — Ascension (v2)
+# Arcane Brick Breaker: Realms — v3
 
-A dependency-free premium HTML5 brick breaker.
+A full offline-capable PWA brick-breaker adventure with permanent progression.
 
-## v2 upgrade
-- Reworked physics and paddle aiming
-- 9 power-ups with proper duration/consumption logic
-- Wide, Trinity Multi-ball, Laser, Chrono, Aegis, Inferno, Magnet, Nova Blast, Extra Life
-- Weighted power-up drops
-- Combo multiplier with timeout
-- Special Crystal, Steel and explosive Nova bricks
-- Boss encounter every fifth stage
-- More varied procedural stage patterns
-- Stage transition and bonus scoring
-- Better particles, glow, trails, screen shake, flashes and HUD
-- Touch, mouse and keyboard controls
-- Persistent best score/settings
-- WebAudio-generated SFX; no external assets/dependencies
+## Included
+- 5 handcrafted visual realms across 50 stages
+- Realm-specific palettes and 5 named bosses
+- Boss attack mechanics with different projectile patterns
+- Permanent Arcane Forge upgrade system
+- Shard currency and first-clear rewards
+- 10 achievements with rewards
+- 50-node selectable level map and progression
+- Unlockable/equippable paddle and orb cosmetics
+- 11 power-ups including rare Storm and Echo runes
+- Daily Rift with date-seeded layout, one-life rules and daily reward
+- Combo scoring, special bricks, explosive chains, particles, trails, screen shake
+- Synthesized WebAudio SFX + ambient procedural music
+- Local save for progress/settings/shop/achievements
+- Installable PWA with offline service worker
+- Mobile touch, mouse and keyboard support
 
-## Deploy
-Upload `index.html`, `styles.css`, `game.js`, and `README.md` to the repository root. GitHub Pages can deploy directly from `main` / root.
+## GitHub Pages
+Replace the old repository files with everything in this ZIP. Keep all files in the repository root. If Pages already points at `main / (root)`, it will redeploy automatically.
 
-## Controls
-Mouse/touch or A-D/Arrow keys to move. Click/tap/Space to launch. P/Escape pauses.
+## Android install
+Open the live HTTPS GitHub Pages URL in Chrome. Use the in-game `INSTALL APP` button when Chrome exposes installation, or Chrome menu → Add to Home screen / Install app.
+
+PWA installability depends on HTTPS and browser criteria. GitHub Pages provides HTTPS.
