@@ -1,23 +1,24 @@
-# Arcane Brick Breaker
+# Arcane Brick Breaker — Ascension (v2)
 
-Premium responsive HTML5 brick-breaker game.
+A dependency-free premium HTML5 brick breaker.
 
-## Features
-- Procedural multi-level brick layouts
-- Normal, armored and arcane bricks
-- Combo scoring and persistent best score
-- Wide Paddle, Multi Ball, Laser, Slow, Shield, Fire Ball and Extra Life power-ups
-- Particle effects, glow, trails and screen shake
-- Procedural Web Audio sound effects
-- Mouse, keyboard and touch controls
-- Pause, restart, instructions and settings
-- Mobile responsive
-- No external dependencies / no build step
-
-## Controls
-- Mouse / touch / Left-Right arrows: paddle
-- Click / tap / Space: launch
-- P / Escape: pause
+## v2 upgrade
+- Reworked physics and paddle aiming
+- 9 power-ups with proper duration/consumption logic
+- Wide, Trinity Multi-ball, Laser, Chrono, Aegis, Inferno, Magnet, Nova Blast, Extra Life
+- Weighted power-up drops
+- Combo multiplier with timeout
+- Special Crystal, Steel and explosive Nova bricks
+- Boss encounter every fifth stage
+- More varied procedural stage patterns
+- Stage transition and bonus scoring
+- Better particles, glow, trails, screen shake, flashes and HUD
+- Touch, mouse and keyboard controls
+- Persistent best score/settings
+- WebAudio-generated SFX; no external assets/dependencies
 
 ## Deploy
-Upload all files to the root of a GitHub repository or any static host such as Cloudflare Pages. No build command is required.
+Upload `index.html`, `styles.css`, `game.js`, and `README.md` to the repository root. GitHub Pages can deploy directly from `main` / root.
+
+## Controls
+Mouse/touch or A-D/Arrow keys to move. Click/tap/Space to launch. P/Escape pauses.
